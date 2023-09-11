@@ -7,9 +7,11 @@ import Fade from '@mui/material/Fade';
 export default function MobileMenu() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
+
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
+
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -39,11 +41,15 @@ export default function MobileMenu() {
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem className="text-orange-400 font-bold" onClick={handleClose}>Home</MenuItem>
-        <MenuItem className="font-bold" onClick={handleClose}>About Us</MenuItem>
-        <MenuItem className="font-bold" onClick={handleClose}>Projects</MenuItem>
-        <MenuItem className="font-bold" onClick={handleClose}>Services</MenuItem>
-        <MenuItem className="font-bold" onClick={handleClose}>Contact Us</MenuItem>
+        <MenuItem className="text-orange-400 font-bold sm:py-3 w-full left-0" onClick={handleClose}>Home</MenuItem>
+        <hr></hr>
+        <MenuItem className="font-bold sm:py-3 w-full left-0" onClick={handleClose}>About Us</MenuItem>
+        <hr></hr>
+        <MenuItem className="font-bold sm:py-3 w-full left-0" onClick={handleClose}>Projects</MenuItem>
+        <hr></hr>
+        <MenuItem className="font-bold sm:py-3 w-full left-0" onClick={handleClose}>Services</MenuItem>
+        <hr></hr>
+        <MenuItem className="font-bold sm:py-3 w-full left-0" onClick={handleClose}>Contact Us</MenuItem>
       </Menu>
     </div>
   );
