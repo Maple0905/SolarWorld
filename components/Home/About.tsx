@@ -4,7 +4,7 @@ import styles from '../custom.module.css';
 
 export default function About() {
   return (
-    <div className="max-w-6xl w-full py-12 md:py-24 md:grid md:grid-cols-12 gap-8 lg:gap-20">
+    <div className="max-w-6xl w-full py-12 md:py-24 md:grid md:grid-cols-12 gap-8 lg:gap-10">
       <div className="md:col-span-6 hidden md:block">
         <div className="h-full flex items-center">
           <div className={`h-full w-full relative ${styles.about_img}`}>
@@ -32,20 +32,20 @@ export default function About() {
         <div className="mb-5">
           <ul className="list-inside text-left">
             <li className="font-semibold text-md mb-3 flex items-center">
-              <span className="mr-2 inline-block w-2 h-2 bg-orange-400"></span>
-              <p>Future is efficient power vitality and sustainable power source</p>
+              <span className={`w-2 h-2 bg-orange-400 ${styles.about_list_icon}`}></span>
+              <p className="pl-2">Future is efficient power vitality and sustainable power source</p>
             </li>
             <li className="font-semibold text-md mb-3 flex items-center">
-              <span className="mr-2 inline-block w-2 h-2 bg-orange-400"></span>
-              <p>Green Clean Renewable Energy</p>
+              <span className={`w-2 h-2 bg-orange-400 ${styles.about_list_icon}`}></span>
+              <p className="pl-2">Green Clean Renewable Energy</p>
             </li>
             <li className="font-semibold text-md mb-3 flex items-center">
-              <span className="mr-2 inline-block w-2 h-2 bg-orange-400"></span>
-              <p>Harvest the breeze, water, and sun for your vitality needs</p>
+              <span className={`w-2 h-2 bg-orange-400 ${styles.about_list_icon}`}></span>
+              <p className="pl-2">Harvest the breeze, water, and sun for your vitality needs</p>
             </li>
             <li className="font-semibold text-md mb-5 flex items-center">
-              <span className="mr-2 inline-block w-2 h-2 bg-orange-400"></span>
-              <p>Energy Is As Perfect As The Breeze</p>
+              <span className={`w-2 h-2 bg-orange-400 ${styles.about_list_icon}`}></span>
+              <p className="pl-2">Energy Is As Perfect As The Breeze</p>
             </li>
           </ul>
         </div>

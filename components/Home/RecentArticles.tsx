@@ -5,7 +5,7 @@ import ArticleImg3 from '../../public/img/recent_article_3.png';
 
 export default function RecentArticle() {
   return (
-    <div className="w-full flex flex-col items-center py-16 md:py-24 bg-[#FEF6EB]">
+    <div className="w-full flex flex-col items-center py-16 md:py-24 bg-[#FEF5EB]">
       <div className="max-w-6xl flex flex-col items-center">
         <div className="inline-block flex flex-col items-center">
           <hr className="mb-3 border-orange-300" style={{ width: '40%' }}></hr>
@@ -15,7 +15,7 @@ export default function RecentArticle() {
           <h1 className="">Recent</h1>
           <h1 className="text-orange-400">&nbsp;Articles</h1>
         </div>
-        <div className="md:grid md:grid-cols-12 gap-12 md:px-10 lg:px-0">
+        <div className="md:grid md:grid-cols-12 gap-12 px-5">
           <div className="col-span-6 lg:col-span-4 drop-shadow-xl py-5 px-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">

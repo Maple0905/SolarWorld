@@ -16,3 +16,8 @@
 .border_left {
   border-left-width: 1px;
 }
+
+.about_list_icon {
+  min-width: 0.5rem;
+  max-width: 0.5rem;
+}

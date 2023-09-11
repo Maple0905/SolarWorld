@@ -2,9 +2,9 @@ import styles from "../custom.module.css";
 
 export default function Hero() {
   return (
-  <div className={`w-full h-full relative flex flex-col items-center top-[88px] ${styles.hero_landing_img}`}>
+  <div className={`w-full h-full relative flex flex-col items-center ${styles.hero_landing_img}`}>
       <div className="max-w-6xl w-full grid grid-cols-12 py-12 md:py-32 px-5 md:px-0">
-        <div className="col-start-1 col-span-12 md:col-start-1 md:col-span-7 relative border rounded-lg z-20">
+        <div className="col-start-1 col-span-12 md:col-start-1 md:col-span-7 relative border rounded-lg z-10">
           <div className="p-6 md:p-12 text-center md:text-left">
             <p className="text-orange-400 text-md pb-3">We Are Top Renewable Energy Solutions!</p>
             <div className="text-3xl md:text-4xl xl:text-6xl text-white">
