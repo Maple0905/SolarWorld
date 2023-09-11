@@ -1,6 +1,6 @@
 export default function Header() {
 	return (
-		<div className="hidden md:block md:flex w-full items-center justify-between px-12 py-3 bg-gray-100">
+		<div className="hidden xl:block xl:flex w-full items-center justify-between px-12 py-3 bg-gray-100">
 			<div className="flex items-center text-md">
 				<p className="font-semibold">Call Us:</p>
 				<a href="tel:+000111333" className="pl-2">000 111 333</a>

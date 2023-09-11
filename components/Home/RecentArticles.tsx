@@ -36,7 +36,7 @@ export default function RecentArticle() {
                 <p className="text-orange-400 pl-2">July 2, 2021</p>
                 </div>
               </div>
-              <h6 className="text-md pb-3">The great thing about solar panels is that they do not require a lot of maintenance.</h6>
+              <h6 className="md:text-md pb-3">The great thing about solar panels is that they do not require a lot of maintenance.</h6>
               <a href="#" className="text-orange-400 text-md font-bold">Read More</a>
             </div>
           </div>

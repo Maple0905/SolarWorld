@@ -1,4 +1,5 @@
 import styles from '../components/custom.module.css';
+import MobileMenu from './MobileMenu';
 
 export default function NavBar() {
 	return (
@@ -21,7 +22,7 @@ export default function NavBar() {
               <path d="M203.906 27.4692L203.642 26.1486C202.814 26.6944 201.96 27.0994 201.08 27.3635C200.217 27.6101 199.486 27.7333 198.888 27.7333H197.699C196.502 27.7333 195.542 27.3724 194.82 26.6504C194.098 25.9285 193.737 24.9688 193.737 23.7715V17.6966C193.737 16.376 194.107 15.3459 194.847 14.6063C195.604 13.8492 196.643 13.4706 197.963 13.4706H203.378V8.98047H208V27.4692H203.906ZM200.208 23.9035C201.142 23.9035 202.198 23.7274 203.378 23.3753V17.0363H199.416C198.712 17.0363 198.36 17.3884 198.36 18.0928V22.9791C198.36 23.2432 198.448 23.4633 198.624 23.6394C198.8 23.8155 199.02 23.9035 199.284 23.9035H200.208Z" fill="white"/>
             </svg>
           </a>
-          <div className="hidden md:block md:flex items-center">
+          <div className="hidden xl:block xl:flex items-center">
             <a href="#" className="text-orange-400 font-extrabold px-12">Home</a>
             <a href="#" className="font-extrabold pr-12">About Us</a>
             <a href="#" className="font-extrabold pr-12">Projects</a>
@@ -30,7 +31,7 @@ export default function NavBar() {
           </div>
         </div>
       </div>
-      <div className="hidden pr-12 md:block md:flex items-center">
+      <div className="hidden pr-12 xl:block xl:flex items-center">
         <button className="bg-orange-400 text-white py-3 px-7">Get Started</button>
         <div className="pl-10 flex items-center">
           <input className={`py-5 px-5 w-[200px] ${styles.border_left}`} placeholder="Search"></input>
@@ -39,18 +40,14 @@ export default function NavBar() {
           </svg>
         </div>
       </div>
-      <div className="block pr-5 flex justify-between items-center md:hidden">
+      <div className="block flex justify-between items-center xl:hidden">
         <a href="#">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4ZM2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 11.8487 17.3729 13.551 16.3199 14.9056L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L14.9056 16.3199C13.551 17.3729 11.8487 18 10 18C5.58172 18 2 14.4183 2 10Z" fill="#F6A235"/>
           </svg>
         </a>
-        <a href="#" className="pl-3">
-          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M21 7.84326H3C2.59 7.84326 2.25 7.49917 2.25 7.08423C2.25 6.66929 2.59 6.3252 3 6.3252H21C21.41 6.3252 21.75 6.66929 21.75 7.08423C21.75 7.49917 21.41 7.84326 21 7.84326Z" fill="#F6A235"/>
-            <path d="M21 12.9033H3C2.59 12.9033 2.25 12.5592 2.25 12.1443C2.25 11.7293 2.59 11.3853 3 11.3853H21C21.41 11.3853 21.75 11.7293 21.75 12.1443C21.75 12.5592 21.41 12.9033 21 12.9033Z" fill="#F6A235"/>
-            <path d="M21 17.9639H3C2.59 17.9639 2.25 17.6198 2.25 17.2048C2.25 16.7899 2.59 16.4458 3 16.4458H21C21.41 16.4458 21.75 16.7899 21.75 17.2048C21.75 17.6198 21.41 17.9639 21 17.9639Z" fill="#F6A235"/>
-          </svg>
+        <a href="#" className="">
+          <MobileMenu></MobileMenu>
         </a>
       </div>
 		</div>

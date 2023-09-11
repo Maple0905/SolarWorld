@@ -22,8 +22,8 @@ export default function About() {
           <h6 className="text-md text-slate-600 mb-5">OUR INTRODUCTION</h6>
         </div>
         <div className="flex justify-center md:justify-start mb-5">
-          <h1 className="text-5xl font-extrabold">About Our</h1>
-          <h1 className="text-5xl text-orange-400 font-bold">&nbsp;Factory</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold">About Our</h1>
+          <h1 className="text-3xl md:text-5xl text-orange-400 font-bold">&nbsp;Factory</h1>
         </div>
         <h6 className="text-md mb-5">Let&apos;s Experience The Power Of The Sun. To ensure our World&apos;s future children little girls. Act now tackling sun, wind and waters!</h6>
         <div className="mb-5">
