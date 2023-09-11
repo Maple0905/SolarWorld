@@ -10,8 +10,6 @@
 }
 
 .about_img {
-  background-image: url('../public/img/about.png');
-  background-size: cover;
   box-shadow: -15px 15px rgb(253, 236, 215);
 }
 

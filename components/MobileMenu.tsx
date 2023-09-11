@@ -39,11 +39,11 @@ export default function MobileMenu() {
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem className="text-orange-400 font-semibold" onClick={handleClose}>Home</MenuItem>
-        <MenuItem className="font-semibold" onClick={handleClose}>About Us</MenuItem>
-        <MenuItem className="font-semibold" onClick={handleClose}>Projects</MenuItem>
-        <MenuItem className="font-semibold" onClick={handleClose}>Services</MenuItem>
-        <MenuItem className="font-semibold" onClick={handleClose}>Contact Us</MenuItem>
+        <MenuItem className="text-orange-400 font-bold" onClick={handleClose}>Home</MenuItem>
+        <MenuItem className="font-bold" onClick={handleClose}>About Us</MenuItem>
+        <MenuItem className="font-bold" onClick={handleClose}>Projects</MenuItem>
+        <MenuItem className="font-bold" onClick={handleClose}>Services</MenuItem>
+        <MenuItem className="font-bold" onClick={handleClose}>Contact Us</MenuItem>
       </Menu>
     </div>
   );

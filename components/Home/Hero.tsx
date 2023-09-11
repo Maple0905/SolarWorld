@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="col-start-2 col-span-10 md:col-start-1 md:col-span-7 relative border rounded-lg z-20">
           <div className="p-6 md:p-12 text-center md:text-left">
             <p className="text-orange-400 text-md pb-3">We Are Top Renewable Energy Solutions!</p>
-            <div className="text-3xl lg:text-6xl text-white">
+            <div className="text-3xl md:text-4xl xl:text-6xl text-white">
               <h1 className="font-extrabold pb-3">Powering Homes</h1>
               <div className="flex justify-center md:justify-start">
                 <div className="inline-block pb-3">

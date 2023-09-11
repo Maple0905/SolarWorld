@@ -11,16 +11,16 @@ export default function RecentArticle() {
           <hr className="mb-3 border-orange-300" style={{ width: '40%' }}></hr>
           <h6 className="text-md text-slate-600 mb-5">OUR BLOGS</h6>
         </div>
-        <div className="flex text-4xl font-extrabold pb-10">
+        <div className="flex text-3xl md:text-4xl xl:text-5xl font-extrabold pb-5 md:pb-10">
           <h1 className="">Recent</h1>
           <h1 className="text-orange-400">&nbsp;Articles</h1>
         </div>
-        <div className="md:grid md:grid-cols-12 gap-12">
-          <div className="col-span-4 drop-shadow-xl p-10 md:p-0">
+        <div className="md:grid md:grid-cols-12 gap-12 md:px-10 lg:px-0">
+          <div className="col-span-6 lg:col-span-4 drop-shadow-xl py-5 px-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">
                 <Image className="cover w-full h-full pb-5" src={ArticleImg1.src} alt="My Image" width={500} height={500} />
-                <h1 className="text-xl font-bold">Expanding The Solar Supply Chain Finance</h1>
+                <h1 className="text-lg xl:text-xl font-bold">Expanding The Solar Supply Chain Finance</h1>
               </a>
               <div className="py-3 flex items-center">
                 <div className="flex items-center">
@@ -36,15 +36,15 @@ export default function RecentArticle() {
                 <p className="text-orange-400 pl-2">July 2, 2021</p>
                 </div>
               </div>
-              <h6 className="md:text-md pb-3">The great thing about solar panels is that they do not require a lot of maintenance.</h6>
+              <h6 className="text-md pb-3">The great thing about solar panels is that they do not require a lot of maintenance.</h6>
               <a href="#" className="text-orange-400 text-md font-bold">Read More</a>
             </div>
           </div>
-          <div className="col-span-4 drop-shadow-xl p-10 md:p-0">
+          <div className="col-span-6 lg:col-span-4 drop-shadow-xl py-5 px-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">
                 <Image className="cover w-full h-full pb-5" src={ArticleImg2.src} alt="My Image" width={500} height={500} />
-                <h1 className="text-xl font-bold">Addressing Wind Energy Innovation Challenges</h1>
+                <h1 className="text-lg xl:text-xl font-bold">Addressing Wind Energy Innovation Challenges</h1>
               </a>
               <div className="py-3 flex items-center">
                 <div className="flex items-center">
@@ -64,11 +64,11 @@ export default function RecentArticle() {
               <a href="#" className="text-orange-400 text-md font-bold py-2">Read More</a>
             </div>
           </div>
-          <div className="col-span-4 drop-shadow-xl p-10 md:p-0">
+          <div className="col-span-6 lg:col-span-4 drop-shadow-xl py-5 px-10 md:p-0">
             <div className="w-full p-7 bg-white">
               <a href="#">
                 <Image className="cover w-full h-full pb-5" src={ArticleImg3.src} alt="My Image" width={500} height={500} />
-                <h1 className="text-xl font-bold">Smarter Ways To Manage EV Charging Infrastructures</h1>
+                <h1 className="text-lg xl:text-xl font-bold">Smarter Ways To Manage EV Charging Infrastructures</h1>
               </a>
               <div className="py-3 flex items-center">
                 <div className="flex items-center">
