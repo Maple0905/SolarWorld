@@ -11,7 +11,7 @@ export default function Layout({ children  }: PropsWithChildren<any>) {
   return (
     <>
       <Head>
-        <title>Get a Free Quote</title>
+        <title>Solar World</title>
       </Head>
       <main className={`min-h-screen w-full flex flex-col items-center ${inter.className}`}>
         <Header></Header>
