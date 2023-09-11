@@ -1,0 +1,20 @@
+.hero_landing_img {
+  background-image: url('../public/img/hero.png');
+  background-size: cover;
+}
+
+.hero_img_style {
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6.8px);
+}
+
+.about_img {
+  background-image: url('../public/img/about.png');
+  background-size: cover;
+  box-shadow: -15px 15px rgb(253, 236, 215);
+}
+
+.border_left {
+  border-left-width: 1px;
+}
